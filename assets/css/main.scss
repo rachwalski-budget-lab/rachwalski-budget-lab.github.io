@@ -1,0 +1,151 @@
+---
+---
+
+@import
+    "vendor/breakpoint/breakpoint",
+    "themes",
+    "theme/default_light",
+    "include/mixins",
+    "vendor/susy/susy",
+    "layout/reset",
+    "layout/base",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+    "layout/forms",
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv"
+;
+
+/* Featured Highlight Boxes (Recent Pub & Recent Code) */
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 24px 0 28px;
+}
+
+.featured-box {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #1e3a8a;
+  background: #eff6ff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.box-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 6px;
+}
+
+.box-desc {
+  font-size: 0.88rem;
+  color: #4b5563;
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+
+/* Presentation Card with Photo */
+.pres-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.pres-item:last-child { border-bottom: none; }
+
+.pres-img-wrapper {
+  flex-shrink: 0;
+  width: 170px;
+  height: 115px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+.pres-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.pres-text {
+  flex: 1;
+}
+
+/* Photo Gallery for Misc Page */
+.photo-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 18px;
+}
+
+.gallery-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.gallery-img-container {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+.gallery-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-caption {
+  padding: 12px 14px;
+}
+
+.gallery-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: #111827;
+}
+
+.gallery-desc {
+  font-size: 0.82rem;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .featured-grid { grid-template-columns: 1fr; }
+  .pres-item { flex-direction: column; }
+  .pres-img-wrapper { width: 100%; height: 180px; }
+  .photo-gallery-grid { grid-template-columns: 1fr; }
+}

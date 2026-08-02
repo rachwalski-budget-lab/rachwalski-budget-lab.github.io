@@ -1,0 +1,48 @@
+# Welcome to AcademicPages configuration for Anna Rachwalski!
+
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Anna Rachwalski"
+title_separator          : "-"
+name                     : &name "Anna Rachwalski"
+description              : &description "Pre-Doctoral Fellow at The Budget Lab, Yale University"
+url                      : "https://rachwalski-budget-lab.github.io"
+baseurl                  : ""
+repository               : "rachwalski-budget-lab/rachwalski-budget-lab.github.io"
+
+# Sidebar Author Profile
+author:
+  avatar           : "/images/about.jpg"
+  name             : "Anna Rachwalski"
+  bio              : "Pre-Doctoral Fellow at The Budget Lab, Yale University"
+  location         : "New Haven, CT"
+  employer         : "Yale University"
+  email            : "anna.rachwalski@yale.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=42OfKLQAAAAJ&hl=en"
+  linkedin         : "https://www.linkedin.com/in/annarachwalski/"
+  github           : "rachwalski-budget-lab"
+
+include: [".htaccess"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
