@@ -1,0 +1,76 @@
+# Research, Policy, and Industry Experience
+# Ordered reverse chronologically
+
+- role: "Tobin Center for Economic Policy Pre-Doctoral Fellow"
+  org: "The Budget Lab, Yale University"
+  advisor: "Natasha Sarin"
+  dates: "Jul 2026 – present"
+  location: "New Haven, CT"
+  bullets:
+    - "Develop, maintain microsimulation models producing estimates of the revenue, distributional, and macroeconomic effects of federal tax and transfer policy proposals, supporting congressional and public use."
+
+- role: "Research Assistant, Management Information Systems"
+  org: "Terry College of Business, University of Georgia"
+  advisor: "Akshat Lakhiwal"
+  dates: "Mar 2025 – May 2026"
+  location: "Athens, GA"
+  bullets:
+    - "Constructed a panel of 1.2M+ civil dockets across all U.S. federal district courts via scraping and cleaning in R; produced visualizations estimating how AI diffusion shapes litigation rates, disclosure."
+    - "Designed a mock job-application site in Qualtrics for an experiment examining how algorithmic evaluation affects labor-market behavior."
+
+- role: "Crisis Insights and Analytics Lab Member"
+  org: "Grady College, University of Georgia"
+  advisor: "Yan Jin"
+  dates: "Feb 2023 – May 2026"
+  location: "Athens, GA"
+  bullets:
+    - "Created and fielded surveys (500+ respondents) and semi-structured interviews with communications practitioners across six countries, managing IRB protocols and registration."
+    - "Contributed quantitative and qualitative empirical analysis to peer-reviewed publications and presentations given at major international conferences."
+
+- role: "Vinson Fellow, Workforce and Economic Development"
+  org: "Carl Vinson Institute of Government"
+  dates: "Aug – Dec 2025"
+  location: "Athens, GA"
+  bullets:
+    - "Benchmarked rural Georgia labor-market conditions against peer regions using FRED and Georgia DOL data, identifying occupational supply-demand gaps."
+    - "Synthesized data into county-level development strategy presented to 50+ local-government practitioners."
+
+- role: "Summer Analyst"
+  org: "Analysis Group"
+  dates: "Jun – Aug 2025"
+  location: "Washington, DC"
+  bullets:
+    - "Estimated damages in an environmental land-loss lawsuit and a software IP dispute, applying royalty-base modeling and analysis of public financial records and government data."
+    - "Built datasets, produced econometric and financial analyses used in expert reports for federal proceedings."
+    - "Fact-checked and verified tables, exhibits, and footnotes in expert reports prior to submission."
+
+- role: "Division of Economic and Risk Analysis Intern, Office of Corporate Finance"
+  org: "U.S. Securities and Exchange Commission"
+  dates: "May – Jul 2024"
+  location: "Washington, DC"
+  bullets:
+    - 'Built a dataset of foreign-private-issuer (FPI) disclosures spanning 50+ countries and $9.0T in market capitalization; directed a 100+ paper literature review.'
+    - 'Earned acknowledgment in a <a href="https://www.sec.gov/files/dera_wp_fpi-trends-2412.pdf" target="_blank" rel="noopener">white paper</a> that directly informed rulemaking on FPI disclosure obligations.'
+
+- role: "Virtual Student Federal Service Intern, Global Engagement Center"
+  org: "U.S. Department of State"
+  dates: "Aug 2024 – Jan 2025"
+  location: "Remote"
+  bullets:
+    - "Analyzed foreign influence operations by Chinese, Iranian, and Russian state actors, mapping how local news ecosystems were repurposed as disinformation distribution networks."
+    - "Translated content-resharing datasets into intelligence reports disseminated to embassies, GEC analysts."
+
+- role: "Legislative Fellow, Representative Spencer Frye"
+  org: "Georgia House of Representatives (HD-122)"
+  dates: "Aug 2023 – May 2024"
+  location: "Athens, GA"
+  bullets:
+    - "Drafted policy memoranda and analyses on tax and energy legislation; tracked bill progression, amendments, and floor votes across a full Georgia legislative session for caucus use."
+
+- role: "Research Assistant, CPC Map Project"
+  org: "College of Public Health, University of Georgia"
+  advisor: "Andrea Swartzendruber"
+  dates: "Sep 2022 – Feb 2023"
+  location: "Athens, GA"
+  bullets:
+    - 'Collected, verified, and standardized facility-level data for a <a href="https://crisispregnancycentermap.com/" target="_blank" rel="noopener">national directory</a> of 2,500+ crisis pregnancy centers, enabling downstream geographic access-to-care and policy research.'

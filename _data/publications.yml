@@ -1,0 +1,57 @@
+articles:
+  - title: "Organizational GenAI Culture: Catalysts and Constraints for Crisis READINESS"
+    authors: "Shivers, B. N., Kirkpatrick, K., Flaker, L., Rachwalski, A., Wang, Y., Jin, Y., Anton, A., Ravazzani, S., Coombs, W. T., & van der Meer, T. G."
+    venue: "Journal of Contingencies and Crisis Management"
+    year: "2026"
+    doi: "10.1111/1468-5973.70190"
+
+  - title: "Seeking Social Change from the Inside Out: A Cross-Country Study on Employee Activism"
+    authors: "Ravazzani, S., Jin, Y., Conti, S., Rachwalski, A., Robinson, S., & Mazzei, A."
+    venue: "Journal of Communication Management"
+    year: "2025"
+    doi: "10.1108/jcom-07-2024-0102"
+
+  - title: "Management of AI-Triggered Organizational Threats from Communication Practitioners' Perspective"
+    authors: "Zhao, W., Rachwalski, A., Berndt-Goke, M., & Jin, Y."
+    venue: "Journal of Contingencies and Crisis Management"
+    year: "2025"
+    doi: "10.1111/1468-5973.70031"
+
+chapters:
+  - title: "Building a Culture of READINESS: Preventing and Mitigating Risks Associated with AI in Corporate Crisis Management"
+    authors: "Song, N., Rachwalski, A., & Jin, Y."
+    venue: "In <em>AI in Corporate Communication</em>, Routledge"
+    year: "forthcoming"
+
+under_review:
+  - title: "How a CEO's Expressed Humility Impacts Investors' Responses to Organizational Crisis Communication Efforts"
+    authors: "Graffeo, J., Jin, Y., Flaker, L., Song, N., Rachwalski, A., & Kirkpatrick, K."
+    venue: "International Journal of Strategic Communication"
+
+other_contributions:
+  - title: "Trends in the Foreign Private Issuer Population 2003–2023: A Descriptive Analysis of Issuers Filing Annual Reports on Form 20-F"
+    authors: "Avila, E., & Nilsson, M."
+    venue: "U.S. Securities and Exchange Commission, Division of Economic and Risk Analysis"
+    year: "2024"
+    url: "https://www.sec.gov/files/dera_wp_fpi-trends-2412.pdf"
+    note: "Research assistance acknowledged; contributed as a DERA summer intern."
+
+course_papers:
+  - title: "Partisan Polarization and Inflation Perceptions in the United States, 2022–2023"
+    authors: "Rachwalski, A."
+    year: "2026"
+    description: "OLS regression with demographic and ideological controls using Pew ATP data."
+    status: "Under review, IAES Best Undergraduate Paper Competition and <em>The Sadie Collective Undergraduate Journal</em>."
+    course: "Political Propaganda, Audrey Haynes, UGA"
+
+  - title: "Administrative Failure and the COVID-19 Paycheck Protection Program"
+    authors: "Rachwalski, A."
+    year: "2026"
+    description: "Qualitative case study applying Light's failure typology to SBA OIG and GAO data."
+    course: "The American Administrative State, Gbemende Johnson, UGA"
+
+  - title: "Is the American South More Financially Corrupt? Insights from the DOJ's Public Integrity Section Data"
+    authors: "Rachwalski, A."
+    year: "2025"
+    description: "Panel-data OLS regression using DOJ prosecutions."
+    course: "Southern Politics, Charles Bullock, UGA"
