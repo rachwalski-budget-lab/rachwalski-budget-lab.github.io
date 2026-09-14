@@ -1,53 +1,76 @@
 ---
 layout: default
-title: "Miscellaneous"
+title: "Service and Skills"
 permalink: /misc/
 ---
 
 <h2>Service</h2>
 
+<div class="entry">
+  <div class="entry-year">2026&ndash;</div>
+  <div class="entry-body">
+    <div class="entry-note">Host, <em>Office Hours With a Social Scientist</em>, PREDOC.org.</div>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-year">2026</div>
+  <div class="entry-body">
+    <div class="entry-note">Panelist, GRAIL Grant Launch Program, UGA School of Law.</div>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-year">2025&ndash;</div>
+  <div class="entry-body">
+    <div class="entry-note">Application reviewer, Georgia Governor's Honors Program.</div>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-year">2025</div>
+  <div class="entry-body">
+    <div class="entry-note">Facilitator, Crisis Communication Think Tank International Symposium, Amsterdam School of Communication Research.</div>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-year">2023&ndash;26</div>
+  <div class="entry-body">
+    <div class="entry-note">Mentor, Peer Assisted Leadership Program, UGA Honors College.</div>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-year">2023&ndash;25</div>
+  <div class="entry-body">
+    <div class="entry-note">Honors teaching assistant, First-Year Honors Seminar, UGA Honors College.</div>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-year">2022&ndash;24</div>
+  <div class="entry-body">
+    <div class="entry-note">Editorial board member, <em>Georgia Political Review</em>.</div>
+  </div>
+</div>
+
+<h2>Tools</h2>
+
 <p>
-<strong>Host</strong>, Office Hours With a Social Scientist, PREDOC.org (2026)
+<strong>Programming:</strong> R (advanced), Stata, Python (intermediate), LaTeX, Excel.
 </p>
 
 <p>
-<strong>Application Reviewer</strong>, Georgia Governor's Honors Program (2025–present)
+<strong>Data sources and platforms:</strong> FRED, EDGAR, Bloomberg Terminal and Bloomberg Law, LSEG Refinitiv, Qualtrics, REDCap.
+</p>
+
+<h2>Elsewhere</h2>
+
+<p>
+<strong>Study abroad:</strong> University of Oxford (Keble College), Scotland, Australia, New Zealand, Fiji, South Korea, Morocco, Netherlands.
 </p>
 
 <p>
-<strong>Panelist</strong>, GRAIL Grant Launch Program, UGA School of Law (2026)
-</p>
-
-<p>
-<strong>Honors Teaching Assistant</strong>, UGA Honors College, First-Year Honors Seminar (2023–2025)
-</p>
-
-<p>
-<strong>Facilitator</strong>, Crisis Communication Think Tank International Symposium, Amsterdam School of Communication Research (2025)
-</p>
-
-<p>
-<strong>Mentor</strong>, Peer Assisted Leadership Program, UGA Honors College (2023–2026)
-</p>
-
-<p>
-<strong>Editorial Board Member</strong>, <em>Georgia Political Review</em> (2022–2024)
-</p>
-
-<h2>Skills and Additional Information</h2>
-
-<p>
-<strong>Programming:</strong> R (advanced), Stata, Python (intermediate), LaTeX, Microsoft Excel
-</p>
-
-<p>
-<strong>Data and Software:</strong> Bloomberg Terminal/Law, LSEG Refinitiv, FRED, EDGAR, Qualtrics, REDCap
-</p>
-
-<p>
-<strong>Study Abroad:</strong> University of Oxford (Keble College), Scotland, Australia, New Zealand, Fiji, South Korea, Morocco, Netherlands
-</p>
-
-<p>
-<strong>Interests:</strong> Yoga, Georgia Bulldogs college football, art museums, alternative and rock music
+<strong>Interests:</strong> yoga, Georgia Bulldogs football, art museums, alternative and rock music.
 </p>

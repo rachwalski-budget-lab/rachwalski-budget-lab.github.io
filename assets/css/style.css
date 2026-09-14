@@ -80,5 +80,25 @@ hr { border: 0; border-top: 1px solid rgba(0, 0, 0, 0.15); margin: 2rem 0; }
   color: #6c757d;
 }
 
-/* Reference / presentation entries */
-.pub-entry { margin-bottom: 1rem; }
+/* Year-keyed entries (research, experience, honors, service) */
+.lede { color: #495057; margin-bottom: 2rem; }
+
+.entry {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.entry-year {
+  flex: 0 0 4.5rem;
+  color: #6c757d;
+  font-variant-numeric: tabular-nums;
+}
+.entry-body { flex: 1 1 auto; min-width: 0; }
+.entry-title { font-weight: 600; }
+.entry-meta { color: #495057; }
+.entry-note { margin-top: 0.25rem; }
+
+@media (max-width: 575px) {
+  .entry { display: block; }
+  .entry-year { margin-bottom: 0.125rem; }
+}

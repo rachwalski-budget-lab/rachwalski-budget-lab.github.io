@@ -1,11 +1,11 @@
 main:
   - title: "About"
     url: "/"
-  - title: "Published Work"
+  - title: "Research &amp; Writing"
     url: "/publications/"
   - title: "Experience"
     url: "/experience/"
   - title: "Education"
     url: "/education/"
-  - title: "Miscellaneous"
+  - title: "Service &amp; Skills"
     url: "/misc/"
