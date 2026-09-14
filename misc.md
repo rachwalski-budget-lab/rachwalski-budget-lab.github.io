@@ -1,8 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Miscellaneous"
 permalink: /misc/
-author_profile: true
 ---
 
 <h2>Service</h2>

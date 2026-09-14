@@ -1,8 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Experience"
 permalink: /experience/
-author_profile: true
 ---
 
 <h2>Research Experience</h2>

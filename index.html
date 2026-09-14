@@ -1,61 +1,32 @@
 ---
-layout: single
-title: "About Me"
+layout: default
+title: "About"
 permalink: /
-author_profile: true
 ---
 
+<div class="profile">
+  <img src="{{ '/images/about.jpg' | relative_url }}" alt="Anna Rachwalski">
+  <h1>{{ site.author.name }}</h1>
+  <p class="subtitle">Pre-Doctoral Fellow, The Budget Lab at Yale University</p>
+  <p class="links">
+    <a href="mailto:{{ site.author.email }}">Email</a>
+    <a href="{{ site.author.orcid }}">ORCID</a>
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    <a href="{{ site.author.linkedin }}">LinkedIn</a>
+    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+  </p>
+</div>
+
+<hr>
+
 <p>
-I'm a Tobin Pre-Doctoral Fellow placed in <a href="https://budgetlab.yale.edu/" target="_blank" rel="noopener">The Budget Lab at Yale University</a>, where I develop and maintain microsimulation models estimating the revenue, distributional, and macroeconomic effects of federal tax and transfer policy proposals for congressional and public use.
+I'm a Tobin Pre-Doctoral Fellow placed in <a href="https://budgetlab.yale.edu/">The Budget Lab at Yale University</a>, where I develop and maintain microsimulation models estimating the revenue, distributional, and macroeconomic effects of federal tax and transfer policy proposals for congressional and public use.
 </p>
 
 <p>
-I graduated from the University of Georgia as a <a href="https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/" target="_blank" rel="noopener">Foundation Fellow</a> with an A.B. in Economics and Political Science (Phi Beta Kappa, Magna Cum Laude), along with a Certificate in Applied Politics and minors in English and International Affairs. My work sits at the intersection of applied economics, public policy, and data science, and spans research assistantships, government internships, and policy fellowships — from studying AI's effects on litigation and labor markets to analyzing foreign disinformation campaigns and drafting state legislation.
+I graduated from the University of Georgia as a <a href="https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/">Foundation Fellow</a> with an A.B. in Economics and Political Science (Phi Beta Kappa, Magna Cum Laude), along with a Certificate in Applied Politics and minors in English and International Affairs. My work sits at the intersection of applied economics, public policy, and data science, and spans research assistantships, government internships, and policy fellowships &mdash; from studying AI's effects on litigation and labor markets to analyzing foreign disinformation campaigns and drafting state legislation.
 </p>
 
-<div class="interests-box">
-  <div class="interests-box-title">Research Interests</div>
-  <div class="interests-box-content">
-    Public Economics, Tax & Transfer Policy, Artificial Intelligence & the Labor Market
-  </div>
-</div>
-
-<h2 style="font-size:1.35rem; margin-bottom:16px; border-bottom:1px solid #e5e7eb; padding-bottom:6px;">Featured Highlights</h2>
-
-<div class="featured-grid">
-  <!-- Recent Publication -->
-  <div class="featured-box">
-    <div>
-      <span class="box-tag">Recent Publication (2026)</span>
-      <h3 class="box-title">
-        Organizational GenAI Culture: Catalysts and Constraints for Crisis READINESS
-      </h3>
-      <p class="box-desc">
-        Shivers, B. N., Kirkpatrick, K., Flaker, L., <strong>Rachwalski, A.</strong>, et al. Published in <em>Journal of Contingencies and Crisis Management</em>.
-      </p>
-    </div>
-    <div style="font-size:0.88rem; color:#4b5563; border-top:1px dashed #e5e7eb; padding-top:8px; display:flex; justify-content:space-between;">
-      <a href="https://doi.org/10.1111/1468-5973.70190" target="_blank" rel="noopener">https://doi.org/10.1111/1468-5973.70190</a>
-      <a href="{{ '/publications/' | relative_url }}">Published Work &rarr;</a>
-    </div>
-  </div>
-
-  <!-- Recent Code Activity (Dynamic GitHub API Fetch) -->
-  <div class="featured-box" id="github-recent-box">
-    <div>
-      <span class="box-tag">Recent Code Activity</span>
-      <h3 class="box-title">
-        <a href="https://github.com/rachwalski-budget-lab" target="_blank" rel="noopener">
-          rachwalski-budget-lab
-        </a>
-      </h3>
-      <p class="box-desc">
-        Public microsimulation modeling, applied econometrics, and policy datasets on GitHub.
-      </p>
-    </div>
-    <div style="font-size:0.88rem; color:#4b5563; border-top:1px dashed #e5e7eb; padding-top:8px; display:flex; justify-content:space-between;">
-      <span>GitHub Repositories</span>
-      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">View GitHub &rarr;</a>
-    </div>
-  </div>
-</div>
+<p>
+<strong>Research interests:</strong> public economics, tax and transfer policy, artificial intelligence and the labor market.
+</p>

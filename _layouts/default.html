@@ -1,31 +1,33 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.permalink != "/" %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
 
-  <body>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <ul class="navbar-nav">
+      {% for item in site.data.navigation.main %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<main class="content">
+  {% if page.title and page.permalink != "/" %}<h1>{{ page.title }}</h1>{% endif %}
+  {{ content }}
+</main>
 
-    {{ content }}
+<footer class="footer">
+  &copy; {{ site.time | date: "%Y" }} {{ site.author.name }}
+</footer>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+</body>
 </html>

@@ -1,8 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Education & Honors"
 permalink: /education/
-author_profile: true
 ---
 
 <h2>Degree</h2>

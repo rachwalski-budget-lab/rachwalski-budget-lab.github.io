@@ -1,8 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Published Work"
 permalink: /publications/
-author_profile: true
 ---
 
 <h2>Publications</h2>
