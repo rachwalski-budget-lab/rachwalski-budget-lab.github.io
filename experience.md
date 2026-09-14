@@ -4,13 +4,13 @@ title: "Experience"
 permalink: /experience/
 ---
 
-<h2>Policy Analysis and Economic Research</h2>
+<h2>Government and Policy Analysis</h2>
 
 <div class="entry">
   <div class="entry-year">2026&ndash;</div>
   <div class="entry-body">
-    <div class="entry-title">Tobin Fellow, The Budget Lab</div>
-    <div class="entry-meta">Yale University, New Haven, CT. Advisor: Natasha Sarin.</div>
+    <div class="entry-title">Pre-Doctoral Fellow, Tobin Center for Economic Policy</div>
+    <div class="entry-meta">The Budget Lab, Yale University, New Haven, CT. Advisor: Natasha Sarin.</div>
     <div class="entry-note">Build and maintain the microsimulation models behind our estimates of the revenue, distributional, and macroeconomic effects of federal tax and transfer proposals. Output goes to congressional offices and the public on legislative timelines.</div>
   </div>
 </div>
