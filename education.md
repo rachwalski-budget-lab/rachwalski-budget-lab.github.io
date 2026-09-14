@@ -12,13 +12,13 @@ A.B. Economics and Political Science. Phi Beta Kappa, Magna Cum Laude, GPA 3.88/
 Certificate in Applied Politics; minors in English and International Affairs.
 </p>
 
-<h2>Quantitative Preparation</h2>
+<h2>Selected Coursework</h2>
 
 <p>
-Introduction to Econometrics, Applied Statistics and Data Analysis, Introduction to Data
-Science, Political Forecasting, Intermediate Micro and Macroeconomics, Social Choice and
-Elections, Economic Analysis of Law, Economic Growth and Development. Multivariable
-Calculus in progress.
+Multivariable Calculus (in progress), Introduction to Econometrics, Applied Statistics
+and Data Analysis, Introduction to Data Science, Political Forecasting, Intermediate Micro
+and Macroeconomics, Social Choice and Elections, Economic Analysis of Law, Economic Growth
+and Development.
 </p>
 
 <h2>Fellowships, Honors, and Awards</h2>

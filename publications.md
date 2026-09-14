@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Research & Writing"
+title: "Research"
 permalink: /publications/
 ---
 
@@ -59,7 +59,7 @@ to labor markets and to the agencies that regulate them.
   <div class="entry-year">2024</div>
   <div class="entry-body">
     <div class="entry-title">Trends in the Foreign Private Issuer Population 2003&ndash;2023: A Descriptive Analysis of Issuers Filing Annual Reports on Form 20-F</div>
-    <div class="entry-meta">U.S. Securities and Exchange Commission, Division of Economic and Risk Analysis. By E. Avila and M. Nilsson; I am credited for research assistance, not as a co-author.</div>
+    <div class="entry-meta">U.S. Securities and Exchange Commission, Division of Economic and Risk Analysis. By E. Avila and M. Nilsson; I am credited for research assistance.</div>
     <div class="entry-note">Descriptive analysis of the foreign private issuers filing Form 20-F between 2003 and 2023; informed SEC rulemaking on FPI disclosure obligations. <a href="https://www.sec.gov/files/dera_wp_fpi-trends-2412.pdf">White paper</a></div>
   </div>
 </div>
