@@ -11,11 +11,11 @@ body {
   background-color: #fff;
 }
 
-a { color: #0d6efd; text-decoration: underline; }
-a:hover { color: #0a58ca; }
+a { color: #00356b; text-decoration: underline; }  /* Yale Blue */
+a:hover { color: #286dc0; }
 
 /* Navbar */
-.navbar { background-color: #212529; padding: 0.5rem 1rem; }
+.navbar { background-color: #00356b; padding: 0.5rem 1rem; }
 .navbar-inner {
   max-width: 800px;
   margin: 0 auto;
@@ -38,7 +38,7 @@ a:hover { color: #0a58ca; }
   margin: 0;
   padding: 0;
 }
-.navbar-nav a { color: rgba(255, 255, 255, 0.75); text-decoration: none; }
+.navbar-nav a { color: rgba(255, 255, 255, 0.8); text-decoration: none; }
 .navbar-brand:hover, .navbar-nav a:hover { color: #fff; }
 
 /* Content */

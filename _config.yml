@@ -1,5 +1,5 @@
 title                    : "Anna Rachwalski"
-description              : "Tobin Pre-Doctoral Fellow placed in The Budget Lab at Yale University."
+description              : "Federal tax and transfer policy at The Budget Lab at Yale University."
 url                      : "https://rachwalski-budget-lab.github.io"
 baseurl                  : ""
 repository               : "rachwalski-budget-lab/rachwalski-budget-lab.github.io"
@@ -11,6 +11,8 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=42OfKLQAAAAJ&hl=en"
   linkedin         : "https://www.linkedin.com/in/annarachwalski/"
   github           : "rachwalski-budget-lab"
+  budgetlab        : "https://budgetlab.yale.edu/person/anna-rachwalski"
+  tobin            : "https://tobin.yale.edu/people/anna-rachwalski"
 
 exclude:
   - Gemfile
