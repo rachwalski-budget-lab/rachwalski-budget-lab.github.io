@@ -9,7 +9,7 @@ permalink: /misc/
 <div class="entry">
   <div class="entry-year">2026&ndash;</div>
   <div class="entry-body">
-    <div class="entry-note">Host, <em>Office Hours With a Social Scientist</em>, PREDOC.org.</div>
+    <div class="entry-note">Host, <em>Office Hours With a Social Scientist</em>, <a href="https://predoc.org/">PREDOC.org</a>.</div>
   </div>
 </div>
 
