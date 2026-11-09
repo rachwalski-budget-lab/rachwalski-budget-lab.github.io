@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: "/"
+  - title: "Research"
+    url: "/publications/"
+  - title: "Experience"
+    url: "/experience/"
+  - title: "Education"
+    url: "/education/"
+  - title: "Service &amp; Skills"
+    url: "/misc/"

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.permalink != "/" %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <ul class="navbar-nav">
+      {% for item in site.data.navigation.main %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+<main class="content">
+  {% if page.title and page.permalink != "/" %}<h1>{{ page.title }}</h1>{% endif %}
+  {{ content }}
+</main>
+
+</body>
+</html>

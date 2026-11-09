@@ -1,0 +1,105 @@
+/* Minimal stylesheet -- close to browser/Bootstrap defaults. */
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: "Libre Caslon Text", "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+a { color: #00356b; text-decoration: underline; }  /* Yale Blue */
+a:hover { color: #286dc0; }
+
+/* Navbar */
+.navbar { background-color: #00356b; padding: 0.5rem 1rem; }
+.navbar-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin-right: auto;
+}
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav a { color: rgba(255, 255, 255, 0.8); text-decoration: none; }
+.navbar-brand:hover, .navbar-nav a:hover { color: #fff; }
+
+/* Content */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+h1, h2, h3 { font-weight: 500; line-height: 1.2; margin-top: 2rem; margin-bottom: 0.5rem; }
+h1 { font-size: 2.5rem; margin-top: 0; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.375rem; }
+
+p { margin-top: 0; margin-bottom: 1rem; }
+
+hr { border: 0; border-top: 1px solid rgba(0, 0, 0, 0.15); margin: 2rem 0; }
+
+/* Home header block */
+.profile { text-align: center; margin-bottom: 2rem; }
+.profile img {
+  width: 8em;
+  height: 8em;
+  max-width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile h1 { margin: 1rem 0 0.25rem; }
+.profile .subtitle { font-size: 1.25rem; font-weight: 300; margin-bottom: 1rem; }
+.profile .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
+.profile .links a {
+  border: 1px solid #00356b;
+  border-radius: 4px;
+  padding: 0.125rem 0.625rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.profile .links a:hover { background-color: #00356b; color: #fff; }
+
+/* Year-keyed entries (research, experience, honors, service) */
+.lede { color: #495057; margin-bottom: 2rem; }
+
+.entry {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.entry-year {
+  flex: 0 0 4.5rem;
+  color: #6c757d;
+  font-variant-numeric: tabular-nums;
+}
+.entry-body { flex: 1 1 auto; min-width: 0; }
+.entry-title { font-weight: 600; }
+.entry-meta { color: #495057; }
+.entry-note { margin-top: 0.25rem; }
+
+@media (max-width: 575px) {
+  .entry { display: block; }
+  .entry-year { margin-bottom: 0.125rem; }
+}
+
+.entry-year.wide { flex-basis: 11rem; }

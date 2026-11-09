@@ -1,0 +1,21 @@
+title                    : "Anna Rachwalski"
+description              : "Pre-Doctoral Fellow at The Budget Lab at Yale University, working on federal tax and transfer policy."
+url                      : "https://rachwalski-budget-lab.github.io"
+baseurl                  : ""
+repository               : "rachwalski-budget-lab/rachwalski-budget-lab.github.io"
+
+author:
+  name             : "Anna Rachwalski"
+  email            : "anna.rachwalski@yale.edu"
+  orcid            : "https://orcid.org/0009-0001-6755-6885"
+  googlescholar    : "https://scholar.google.com/citations?user=42OfKLQAAAAJ&hl=en"
+  linkedin         : "https://www.linkedin.com/in/annarachwalski/"
+  github           : "rachwalski-budget-lab"
+  budgetlab        : "https://budgetlab.yale.edu/person/anna-rachwalski"
+  tobin            : "https://tobin.yale.edu/people/anna-rachwalski"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
